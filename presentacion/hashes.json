@@ -1,0 +1,17 @@
+{
+  "miniproyecto.py": "8c5fc1ec62a54b00e31dbe325b649ff515a7c07405ad4122f9f08d73e36b8789",
+  "comun.py": "2f0745122a6e14dc4c7f544156127efeb26df401c143a393d5f419adf1609467",
+  "docs\\informe.md": "6422126004477cdb48eeb8eb3be4472d90dd3ce798d8bdf7b5cb36d8f6fd7fb4",
+  "datos\\MRTSSM452USN.csv": "d4f474efdc5107797ce85e348bdb0588d036f3d8dded90588cbbf37a34ffd5fe",
+  "datos\\README.md": "44fe50ad750312a407d01939757b64a8d5cf9d1f94793a10907b7f9b3f7f0bfc",
+  "datos\\ventas_mensuales.csv": "d4f474efdc5107797ce85e348bdb0588d036f3d8dded90588cbbf37a34ffd5fe",
+  "figuras\\acf_pacf.png": "8368299dd73dcf527edaf2dccb652709ef6fcdf6342071711bc7d1274a91dc5b",
+  "figuras\\residuos.png": "1f9651f23202ce6f28552c4d8c1786ac3a8653115b76b015df810659d83ad333",
+  "figuras\\serie.png": "f139e92b90cb2f526aecb880bc9231363b032a4e426838743a1612941e97b480",
+  "figuras\\stl.png": "1efede3cafca62e40f40e71465d12a4e881a89aa3c0d968927acdd55f5acbdda",
+  "resultados\\adf.csv": "6fde62919d928bf631469586355fe48ab8b9ec1da54df896022e6c491489bbbb",
+  "resultados\\aic_sarima.csv": "d1b273b20da4f4e6ae346a0aad1eade03bb996b803041424222c61771f7bde12",
+  "resultados\\convergencia.csv": "e6e295b086a0a4e40a89ae87b31c2d86e2ea8d77a41023b932c62065e95b5ff6",
+  "resultados\\ljung_box.csv": "9fecc69de7c45562f33067f9160c1c2e37078dcdb924f345df2b097c2a427cf0",
+  "resultados\\metricas.csv": "ab7193950d1e6c9954558fa76e6906d087762085f169fc6c0c2a7843b5b2dc27"
+}

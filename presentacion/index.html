@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Series temporales · Santiago Correa Campaña</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script defer src="datos.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">ST<span>01</span></span><span>UAO <span class="muted">/</span> SERIES TEMPORALES</span></div>
+    <div class="tools">
+      <button id="indice" aria-expanded="false" aria-controls="menu">Índice</button>
+      <button id="notas" aria-pressed="false">Notas</button>
+      <button id="pantalla" title="Pantalla completa (F)">Pantalla completa</button>
+      <div class="clock"><output id="tiempo" aria-label="Tiempo de exposición">00:00</output><span>/ 12:00</span></div>
+      <button id="reloj">Iniciar</button><button id="reiniciar" title="Reiniciar cronómetro" aria-label="Reiniciar cronómetro">↺</button>
+    </div>
+  </header>
+  <nav id="menu" aria-label="Índice de la presentación" hidden></nav>
+  <main id="contenido"></main>
+  <footer>
+    <div class="position"><span id="numero">01 / 09</span><span id="tema"></span></div>
+    <div class="navigation"><span class="keyboard">← → navegar · N notas · F pantalla</span><button id="anterior" aria-label="Pantalla anterior">← Anterior</button><button id="siguiente">Siguiente →</button></div>
+  </footer>
+  <progress id="progreso" value="1" max="9" aria-label="Progreso de la presentación"></progress>
+  <dialog id="figuraModal" aria-label="Figura ampliada">
+    <div class="dialogbar"><strong id="figuraTitulo"></strong><div><button id="zoom">Zoom 150 %</button><button data-close>Cerrar · Esc</button></div></div>
+    <div class="image-scroll"><img id="figuraGrande" alt=""></div>
+  </dialog>
+  <dialog id="codigoModal" aria-labelledby="codigoTitulo">
+    <div class="dialogbar"><strong id="codigoTitulo"></strong><button data-close>Cerrar · Esc</button></div>
+    <p class="muted">Fragmento literal del archivo local al generar la presentación. La demostración se realiza en el editor.</p>
+    <pre><code id="codigoTexto"></code></pre><a id="codigoArchivo" target="_blank" rel="noopener">Abrir archivo Python</a>
+  </dialog>
+  <noscript>Activa JavaScript para navegar por la presentación. No necesita conexión a Internet.</noscript>
+</body>
+</html>
