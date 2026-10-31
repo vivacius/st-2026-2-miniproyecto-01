@@ -22,16 +22,16 @@ en `datos/README.md`.
 
 ## Integrantes
 
-Los grupos son de 3 integrantes.
+Este proyecto se desarrolla **individualmente**. La tabla identifica al único
+autor.
 
-Esta tabla identifica al grupo. Sin ella, o con algún dato incompleto, la
-entrega pierde el 20 %; quien no aparezca aquí no cuenta como parte del grupo.
+El enunciado original establece grupos de tres integrantes. La modalidad
+individual aquí declarada no implica que se haya verificado una excepción
+autorizada por el docente.
 
 | Nombre completo | Código | Correo institucional |
 |---|---|---|
-| | | |
-| | | |
-| | | |
+| Santiago Correa Campaña | 551476 | santiago.correa_cam@uao.edu.co |
 
 ## Entrega
 
@@ -65,10 +65,10 @@ entrega pierde el 20 %; quien no aparezca aquí no cuenta como parte del grupo.
 ## Cómo está organizado
 
 ```
-miniproyecto.py      el guion del grupo, en cinco partes con TODO
+miniproyecto.py      preparación, STL, identificación y comparación de modelos
 comun.py             carga, métricas, líneas base y backtest; no se modifica
 datos/               la serie del grupo y su ficha (datos/README.md)
-docs/informe.md      la plantilla del informe; se llena en el mismo archivo
+docs/informe.md      informe final, con las siete secciones requeridas
 figuras/             las figuras que genera el guion
 resultados/          metricas.csv, la tabla que genera el guion
 ```
@@ -78,9 +78,10 @@ sobre los últimos 24 meses, horizonte de 1 a 12) y las mismas métricas
 (RMSE, MAE y MAPE). Si se modifica, la parte de líneas base y *backtest*
 vale 0.
 
-`miniproyecto.py` trae la serie de ejemplo y las líneas base ya puestas, y
-corre desde el primer día. Las partes marcadas con `TODO` las completa el
-grupo; mientras falten, el guion las reporta como pendientes y sigue.
+`miniproyecto.py` utiliza `datos/ventas_mensuales.csv` y compara ingenuo,
+estacional ingenuo, SARIMA y SARIMAX. La identificación y selección utilizan
+los primeros 392 meses; el backtest evalúa los últimos 24. Además de las
+métricas, genera los CSV de ADF, AIC, convergencia y Ljung–Box.
 
 ## Cómo se corre
 

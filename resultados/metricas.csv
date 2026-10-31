@@ -1,0 +1,5 @@
+modelo,decision,RMSE,MAE,MAPE
+"SARIMAX(1, 0, 2)(1, 1, 1, 12) + exógenas",Sin faltantes ni fechas duplicadas; se conservan los valores extremos observados,1082.02,890.76,1.16
+"SARIMA(1, 0, 2)(1, 1, 1, 12)",Sin faltantes ni fechas duplicadas; se conservan los valores extremos observados,1102.38,907.45,1.17
+estacional ingenuo,Sin faltantes ni fechas duplicadas; se conservan los valores extremos observados,2181.36,1904.4,2.44
+ingenuo,Sin faltantes ni fechas duplicadas; se conservan los valores extremos observados,8601.76,6875.18,8.66
